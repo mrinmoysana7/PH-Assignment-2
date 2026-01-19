@@ -1,0 +1,40 @@
+
+
+.inter-font-parent {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-container {
+    background-color: rgba(26, 11, 46, 1);
+}
+
+.hero-banner-container {
+    background-image: url(/assets/hero-bg.png)
+}
+
+.about-section {
+    background-color: rgba(26, 11, 46, 1);
+}
+
+.why-choose-tw-section {
+    background-color: rgba(35, 14, 61, 1);
+}
+
+.feature-section {
+    background-color: rgba(26, 11, 46, 1); 
+}
+
+.host-section {
+    background-color: rgba(26, 11, 46, 1);
+
+}
+
+.foot-section {
+    background-image: url(/assets/footer-bg.png);
+}

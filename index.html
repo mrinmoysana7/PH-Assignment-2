@@ -6,10 +6,14 @@
     <title>TechWave</title>
     <link rel="stylesheet" href="./styles/styling.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
 
 </head>
-<body>
+<body class="inter-font-parent">
     <header>
 
         <!-- use humburger icon and display: none; for mobile reponse design -->
@@ -26,8 +30,12 @@
                 <button class="nav-btn"><a href>Subscribe <i class="fa-duotone fa-solid fa-arrow-right"></i></a></button>
             </div>
         </nav>
-        
-        <banner class="hero-banner-container">
+
+    </header>
+
+    <main>
+
+        <section class="hero-banner-container">
             
             <div class="banner-image">
                 <img class="mic-background" src="./assets/hero-circle.png" alt="podcast background image">
@@ -43,11 +51,7 @@
                 <button class="banner-btn"><a class="subscribe-btn" href=""><i class="fa-duotone fa-solid fa-envelope"></i> Subscribe</a></button>
             </div>
 
-        </banner>
-
-    </header>
-
-    <main>
+        </section>
         
         <section class="about-section">
             <h2 class="about-title">About the Podcast</h2>
@@ -151,6 +155,23 @@
                 </div>
             </div>
 
+           <!-- <div>
+             <h2 class="host-title">Meet the Host</h2>
+            <div class="host-box">
+                <div class="host-image">
+                    <img src="./assets/host.png">
+                </div>
+                <div class="host-details">
+                    <h4 class="host-name">Alex Kumar</h4>
+                    <p class="host-description">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                    <img src="./assets/linkedin.png" class="host-social-icon">
+                    <img src="./assets/x.png" class="host-social-icon">
+                    <img src="./assets/instagram.png" class="host-social-icon">
+                    <img src="./assets/youtube.png" class="host-social-icon">
+                </div>
+            </div>
+           </div> -->
+
         </section>
 
         <section class="host-section">
@@ -169,6 +190,7 @@
                 </div>
             </div>
         </section>
+        
 
     </main>
 
