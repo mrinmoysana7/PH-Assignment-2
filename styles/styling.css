@@ -18,6 +18,8 @@
 .hero-banner-container {
     background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
+    width: 100%vw;
+    max-width: 1600px;
     background-position: center;
     background-size: cover;
     min-height: 760px;
@@ -29,7 +31,7 @@
 }
 
 .why-choose-tw-section {
-    background-color: rgba(35, 14, 61, 1);
+    background-color: #230E3D;
 }
 
 .feature-section {
@@ -47,23 +49,53 @@
     background-position: center;
     background-size: cover;
     min-height: 412px;
-
 }
 
-/* navbar-styling */
-.nav-brand-name{
+/* shared-style-main*/
+
+/* sub-navbar-styling */
+.nav-container,
+.menu-container{
+    display: flex;
+}
+
+.nav-brand-name,
+.about-title{
     color: #FFFFFF;
     font-size: 3rem;
     font-weight: 700;
 }
+
+.gradient-btn{
+    background-image:
+    linear-gradient(20deg, #fbd932, #f556a3, #f946db, hsl(287, 84%, 60%), #ab28f7);
+    padding: 12px 16px;
+    border-style: none;
+    border-radius: 1000px;
+    min-width: 135px;
+    box-shadow: 0px 4px 4px 0px #000000;
+}
+
+#nav-banner{
+    max-height: 852px;
+
+}
+
+/* navbar-styling */
 .nav-container{
     min-height: 92px;
     align-items: center;
     justify-content: space-around;
 }
+
+.nav-brand-name{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 .menu-container li {
-    list-style: none;
-    
+    list-style: none; 
 }
 
 .menu-item{
@@ -77,16 +109,7 @@
     text-decoration: none;
 }
 
-.gradient-btn{
-    background-image:
-    /* linear-gradient(22deg, #d71313, #fac04d), */
-    linear-gradient(20deg, #fbd932, #f556a3, #f946db, hsl(287, 84%, 60%), #ab28f7);
-    padding: 12px 16px;
-    border-style: none;
-    border-radius: 1000px;
-    min-width: 135px;
-    box-shadow: 0px 4px 4px 0px #000000;
-}
+
 
 .gradient-btn a {
     color: #FFFFFF;
@@ -105,14 +128,11 @@
 
 .banner-image{
     max-width: 350px;
-    margin-right: 785px;
-    margin-left: 0px;
-    
+    margin-right: 785px;   
 }
 
 .mic-background{
     margin-bottom: -160px;
-    /* margin: 0 auto; */
 }
 
 .badge-btn{
@@ -132,8 +152,6 @@
     position:relative;
     top: -100px;
     left: 115px;
-    /* top: -100px;
-    left: -250px; */
 }
 
 .banner-info{
@@ -151,8 +169,7 @@
 .banner-description{
     color: #FFFFFF;
     font-size: 1rem;
-    margin-bottom: 24px;
-    
+    margin-bottom: 24px;    
 }
 
 .subscribe-btn{
@@ -166,14 +183,119 @@
 
 .subscribe-btn a{
     color:#00FF88;
-    text-decoration: none;
+    text-decoration: none;    
+}
+
+/* about section styling */
+.about-section{
+    max-height: 646px;
+    padding: 50px 200px 120px 200px;                                    
+}
+
+.about-info{
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.about-title{
+    text-align: center;
+    margin-bottom: 40px;    
+}
+
+.about-description{
+    color:#FFFFFF;
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* .line{
+    
+} */
+
+.staticstics-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.stat-card{
+    gap: 80px;
+    text-align: center;
+}
+
+.stat-number{
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.stat-name{
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.why-choose-tw-section{
+    padding: 120px 200px;
+    justify-items: center;
+}
+
+.why-choose-container{
+    max-width: 1200px;
+    gap: 30px;
     
 }
 
-/* shared-style-main*/
+.why-choose-container>*{
+    padding: 40px;
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);       
+    box-shadow: 2px 4px 5px 0px #000000;
+    text-align: start;
+}
 
-/* sub-navbar-styling */
-.nav-container,
-.menu-container{
-    display: flex;
+.why-box1{
+    padding-top: 100px;
+    
+    grid-area: premium-audio;
+}
+
+.why-box2{
+    grid-area: mobile-friendly;
+}
+
+.why-box3{
+    grid-area: g-community;
+}
+
+.why-box4{
+    grid-area: e-interviews;
+}
+
+.why-box5{
+    grid-area: rich-resources;
+}
+
+.why-choose-container{
+    display: grid;
+    grid-template-areas: 
+    "premium-audio mobile-friendly mobile-friendly"
+    "premium-audio g-community     g-community"
+    "e-interviews  e-interviews    rich-resources";
+}
+
+.why-title{
+    margin: 16px 0px;
+     color:#FFFFFF;
+     font-size: 1.5rem;
+     font-weight: 700;
+}
+
+.why-description{
+     color:#FFFFFF;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 24px;
 }
