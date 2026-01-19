@@ -10,12 +10,18 @@
     margin: 0px;
 }
 
+/* all background images and colors section */
 .nav-container {
     background-color: rgba(26, 11, 46, 1);
 }
 
 .hero-banner-container {
-    background-image: url(/assets/hero-bg.png)
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 760px;
+
 }
 
 .about-section {
@@ -36,5 +42,60 @@
 }
 
 .foot-section {
-    background-image: url(/assets/footer-bg.png);
+    background-image: url("../assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 412px;
+
+}
+
+/* navbar-styling */
+.nav-brand-name{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.nav-container{
+    min-height: 92px;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-container li {
+    list-style: none;
+    
+}
+
+.menu-item{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 32px;
+}
+
+.menu-container a {
+    text-decoration: none;
+}
+
+.nav-btn{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 1000px;
+    min-width: 135px;
+    box-shadow: 0px 0px 20px 0px #ebe6e6;
+}
+
+.nav-btn a {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* shared-style-main*/
+
+/* sub-navbar-styling */
+.nav-container,
+.menu-container{
+    display: flex;
 }
