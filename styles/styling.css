@@ -55,7 +55,8 @@
 
 /* sub-navbar-styling */
 .nav-container,
-.menu-container{
+.menu-container,
+.host-container{
     display: flex;
 }
 
@@ -323,12 +324,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
+    /* width: 100%;
+    max-width: 1200px; */
 }
 
 .feature-card{
     background-color: #250D44;
     border-radius: 20px;
-    box-shadow: 0px 1px 10px px #000000;
+    box-shadow: 0px 4px 4px 0px #00000044;
     min-height: 440px;
     max-width: 380px;
     
@@ -371,5 +374,54 @@ iframe{
     color: #00FF88;
 }
 /* meet the host styling section */
+
+.host-section{
+    padding-bottom: 120px;
+    justify-items: center;
+
+}
+
+.host-title{
+    color:#FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.host-container{
+    background-color:#35116579;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px 0px #00000044;
+}
+
+.host-details{
+    max-width: 896px;
+    margin-left: 24px;
+}
+.host-name{
+    color:#FFFFFF;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.host-description{
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+
+}
 
 /* footer section */
