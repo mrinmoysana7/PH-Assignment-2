@@ -111,7 +111,7 @@
     border-style: none;
     border-radius: 1000px;
     min-width: 135px;
-    box-shadow: 0px 4px 4px 0px #000000;
+    box-shadow: 0px 4px 4px 0px #0000006c;
 }
 
 .gradient-btn-nav a {
@@ -173,7 +173,7 @@
 }
 
 .banner-description{
-    color: #FFFFFF;
+    color: #ffffff94;
     font-size: 1rem;
     margin-bottom: 24px;    
 }
@@ -185,7 +185,7 @@
     border-style: none;
     border-radius: 1000px;
     min-width: 135px;
-    box-shadow: 0px 4px 4px 0px #000000;
+    box-shadow: 0px 4px 4px 0px #00000059;
 }
 
 .gradient-btn-banner a {
@@ -226,7 +226,7 @@
 }
 
 .about-description{
-    color:#FFFFFF;
+    color:#ffffff94;
     font-size: 1rem;
     line-height: 30px;
     text-align: center;
@@ -280,7 +280,7 @@
     padding: 40px;
     border-radius: 40px;
     background-color: rgba(53, 17, 101, 0.4);       
-    box-shadow: 2px 4px 5px 0px #00000050;
+    box-shadow: 0px 4px 4px 0px #00000054;
     text-align: start;
 }
 
@@ -322,7 +322,7 @@
 }
 
 .why-description{
-     color:#FFFFFF;
+     color:#ffffff91;
      font-size: 1rem;
      font-weight: 400;
      line-height: 24px;
@@ -377,7 +377,7 @@ iframe{
 }
 
 .card-description{
-    color:#FFFFFF;
+    color:#ffffff94;
     font-size: 1rem;
     margin-top: 12px;
     margin-bottom: 12px;
@@ -420,7 +420,7 @@ iframe{
     padding-bottom: 40px;
     padding-left: 40px;
     border-radius: 40px;
-    box-shadow: 0px 4px 4px 0px #00000044;
+    box-shadow: 0px 4px 4px 0px #00000052;
 }
 
 .host-details{
@@ -435,7 +435,7 @@ iframe{
 }
 
 .host-description{
-    color:#FFFFFF;
+    color:#ffffff8c;
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
@@ -493,14 +493,19 @@ iframe{
 }
 
 .icon-name{
-    color: #FFFFFF;
+    color: #ffffff8a;
     font-size: 1rem;
     font-weight: 500;
     margin-left: 8px;
 }
 
+.icon-name a{
+    color: #ffffff85;
+    text-decoration: none;
+}
+
 .copyright-text{
-   color: #FFFFFF;
+   color: #ffffff86;
    font-size: 1rem;
    font-weight: 400;
 }
@@ -648,12 +653,12 @@ iframe{
 
 }
 
-.staticstics-container{
+/* .staticstics-container{
     
     
     
     
-}
+} */
 
 .stat-card{
     display:grid;
@@ -676,11 +681,9 @@ iframe{
     /* margin-bottom: 16px; */
 }
 
-.stat-name{
-    /* color:#FFFFFF; */
-    /* font-size: 1rem; */
-    /* font-weight: 400; */
-}
+/* .stat-name{
+    
+} */
 
 
 /* why choose section responsive  */
@@ -737,5 +740,67 @@ iframe{
 .why-description{
      color:#ffffff8a;
 }
+
+/* featured episodes section responsive */
+.feature-section{
+    justify-items: center;
+    padding: 120px 200px;
+}
+
+.feature-title{
+    color:#FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    
+}
+
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.feature-card{
+    background-color: #250D44;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px #00000044;
+    min-height: 440px;
+    max-width: 380px;
+    
+
+}
+
+iframe{
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.info-container{
+    padding: 24px;
+}
+
+
+.card-title{
+    color:#FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-description{
+    color:#FFFFFF;
+    font-size: 1rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.card-icon{
+    margin-right: 6px;
+}
+
+.time-text{
+    color: #00FF88;
+}
+
 
 }
