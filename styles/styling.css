@@ -545,8 +545,9 @@ iframe{
 
 /* banner-responsive */
 .hero-banner-container {
+    width: 100vw;
     max-height: 466px;
-    width: 100%;
+    /* width: 100%; */
     background-position: center;
     position: relative; 
     padding:0px 0px; 
@@ -609,9 +610,20 @@ iframe{
 }
 
 /* about section responsive */
+.about-section{
+    /* width: 100vw; */
+    /* max-height: 646px; */
+    padding: 40px 20px 40px 20px;                                    
+}
+
 .about-info{
+    /* width: 400px;
+    height: 207px; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16;
     justify-items: center;
-    margin: 40px auto;
+    /* margin: 40px auto; */
 }
 .about-title{
     font-size: 2rem;
@@ -632,12 +644,13 @@ iframe{
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
     column-gap: 40px;
+    margin-top: -70px;
     align-items: center;
     justify-content: center;
 }
 
 .cards{
-    min-width: 180px;
+    width: 180px;
 
 }
 
@@ -648,6 +661,7 @@ iframe{
 
 /* why choose section responsive  */
 .why-choose-tw-section{
+    /* width: 100vw; */
     padding: 40px 20px;
     justify-items: center;
 }
@@ -703,6 +717,7 @@ iframe{
 
 /* featured episodes section responsive */
 .feature-section{
+    
     padding: 40px 30px;
 }
 
@@ -757,6 +772,7 @@ iframe{
 }
 
 .host-section{
+    /* width: 100vw; */
     padding: 40px 20px;
     justify-items: center;
 }
@@ -791,9 +807,10 @@ iframe{
 
 /* footer section response */
 .foot-section {
+    /* width: 100vw; */
     position: relative;
     background-image: url("../assets/footer-bg.png");
-    max-width: 440px;
+    max-width: 576px;
     height: 248px;
     background-size:cover;
 }
