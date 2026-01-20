@@ -681,4 +681,61 @@ iframe{
     /* font-size: 1rem; */
     /* font-weight: 400; */
 }
+
+
+/* why choose section responsive  */
+.why-choose-tw-section{
+    padding: 40px 20px;
+    justify-items: center;
+}
+
+.why-choose-container{
+    max-width: 400px;
+    gap: 16px;
+}
+
+.why-choose-container>*{
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.why-box1{
+    grid-area: premium-audio;
+}
+
+.why-box2{
+    grid-area: mobile-friendly;
+}
+
+.why-box3{
+    grid-area: g-community;
+}
+
+.why-box4{
+    grid-area: e-interviews;
+}
+
+.why-box5{
+    grid-area: rich-resources;
+}
+
+.why-choose-container{
+    display: grid;
+    grid-template-areas:
+    "premium-audio" 
+    "mobile-friendly" 
+    "g-community" 
+    "e-interviews" 
+    "rich-resources";
+}
+
+.why-title{
+     font-size: 22px;
+     font-weight: 700;
+}
+
+.why-description{
+     color:#ffffff8a;
+}
+
 }
