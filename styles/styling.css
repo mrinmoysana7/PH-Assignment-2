@@ -18,11 +18,9 @@
 .hero-banner-container {
     background-image: url("../assets/hero-bg.png");
     background-repeat: no-repeat;
-    max-width: 100%vw;
-    margin: 0 auto;
+    background-position: center;
     background-size: cover;
-    min-height: 760px;
-
+    height: 760px;
 }
 
 .about-section {
@@ -556,24 +554,12 @@ iframe{
 
 /* banner-responsive */
 .hero-banner-container {
-    justify-items: center;  
-    align-items: center;
+    width: 440px;
+    height: 466px;
+    background-size: 440px 466px;
+    background-position: center;
     position: relative; 
-    padding-bottom: 0px;
-    /* max-width: 440px;
-    max-height: 466px; */
-}
-
-.hero-banner-container {
-    
-    background-image: url("../assets/hero-bg.png");
-    max-width: 100%;
-    margin-bottom: 0px;
-    min-height: 466px;
-    /* margin: 0 auto; */
-    /* background-size: 100%; */
-    /* min-height: 760px; */
-
+    padding:0px 0px; 
 }
 
 .banner-image{
@@ -744,8 +730,8 @@ iframe{
 /* featured episodes section responsive */
 .feature-section{
     /* justify-items: center; */
-    padding: 40px 20px;
-    justify-items: center;
+    padding: 40px 40px;
+    /* justify-items: center; */
 }
 
 .feature-title{
