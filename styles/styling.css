@@ -545,9 +545,8 @@ iframe{
 
 /* banner-responsive */
 .hero-banner-container {
-    width: 412px;
-    height: 466px;
-    background-size: 412px 466px;
+    max-height: 466px;
+    width: 100%;
     background-position: center;
     position: relative; 
     padding:0px 0px; 
