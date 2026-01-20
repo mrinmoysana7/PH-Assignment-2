@@ -70,16 +70,6 @@
 }
 
 
-.gradient-btn{
-    background-image:
-    linear-gradient(20deg, #F7E93F, #FB09B4, #9100F8);
-    padding: 12px 16px;
-    border-style: none;
-    border-radius: 1000px;
-    min-width: 135px;
-    box-shadow: 0px 4px 4px 0px #000000;
-}
-
 #nav-banner{
     max-height: 852px;
 
@@ -87,6 +77,7 @@
 
 /* navbar-styling */
 .nav-container{
+    /* display: none; */
     min-height: 92px;
     align-items: center;
     justify-content: space-around;
@@ -113,18 +104,31 @@
     text-decoration: none;
 }
 
+.gradient-btn-nav{
+    background-image:
+    linear-gradient(20deg, #F7E93F, #FB09B4, #9100F8);
+    padding: 12px 16px;
+    border-style: none;
+    border-radius: 1000px;
+    min-width: 135px;
+    box-shadow: 0px 4px 4px 0px #000000;
+}
 
-
-.gradient-btn a {
+.gradient-btn-nav a {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
 }
 
+.humburger-container #3-line {
+    display: none;
+
+}
+
 /* hero banner styling */
 .hero-banner-container {
-    padding-top: 101px;
+    padding-top: 160px;
     padding-left: 785px; 
     justify-items: center;  
     align-items: center; 
@@ -174,6 +178,23 @@
     margin-bottom: 24px;    
 }
 
+.gradient-btn-banner{
+    background-image:
+    linear-gradient(20deg, #F7E93F, #FB09B4, #9100F8);
+    padding: 12px 16px;
+    border-style: none;
+    border-radius: 1000px;
+    min-width: 135px;
+    box-shadow: 0px 4px 4px 0px #000000;
+}
+
+.gradient-btn-banner a {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .subscribe-btn{
     background-color: #1A0B2E;
     padding: 12px 20px; 
@@ -216,12 +237,14 @@
 } */
  
 
-.staticstics-container{
+/* .staticstics-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr)
-}
+} */
 
 .stat-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 80px;
     text-align: center;
 }
@@ -487,4 +510,175 @@ iframe{
     left: 780px; 
     top: 300px;
     margin: 0px auto;
+}
+
+
+
+/* responsive design for mobile screen */
+
+@media screen and (max-width: 576px){
+    
+/* navbar-responsive */
+.nav-container,
+.menu-container,
+.host-container,
+.host-icon,
+.icon-container,
+.icon-flex {
+    display: flex;
+}
+
+.nav-container{
+    min-height: 60px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.nav-brand-name{
+    font-size: 1.8rem;
+}
+
+.menu-item{
+    display:none;
+}
+
+.gradient-btn-nav{
+    display: none;
+}
+
+/* humberger icon */
+
+
+/* banner-responsive */
+.hero-banner-container {
+    justify-items: center;  
+    align-items: center;
+    position: relative; 
+    padding-bottom: 0px;
+    /* max-width: 440px;
+    max-height: 466px; */
+}
+
+.hero-banner-container {
+    
+    background-image: url("../assets/hero-bg.png");
+    max-width: 100%;
+    margin-bottom: 0px;
+    min-height: 466px;
+    /* margin: 0 auto; */
+    /* background-size: 100%; */
+    /* min-height: 760px; */
+
+}
+
+.banner-image{
+    position:absolute;
+    max-width: 200px;
+    left: 110px;
+    top: 40px;
+}
+
+.mic-background{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.mic-image{
+    max-width: 47px;
+    min-height: 70px;
+    top: 65px;
+    left: 80px;
+}
+
+.badge-btn{
+    font-size: 16px;
+    font-weight: 600;
+    top: 1.5%;
+    left: 65%;
+}
+
+.banner-info{
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+
+.banner-info .banner-title {
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+}
+
+.banner-description{
+    margin-bottom: 24px;
+    max-width: 380px;    
+}
+
+.gradient-btn-banner{
+    padding: 12px 20px;
+    min-width: 135px;
+}
+
+.subscribe-btn{
+    padding: 12px 20px; 
+    margin-left: 8px;
+    min-width: 140px;
+}
+
+/* about section responsive */
+.about-info{
+    justify-items: center;
+    /* margin-right: 20px;
+    margin-left: 20px; */
+    margin: 40px auto;
+}
+.about-title{
+    font-size: 2rem;
+    margin-bottom: 16px;    
+    min-width: 400px;
+    
+}
+
+.about-description{
+    line-height: 20px;
+    text-align: center;
+    min-width: 400px;
+
+}
+
+.staticstics-container{
+    
+    
+    
+    
+}
+
+.stat-card{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+    
+    /* justify-content:end; */
+}
+
+.cards{
+    min-width: 180px;
+
+}
+
+.stat-number{
+    /* color: #00FF88; */
+    font-size: 2.5rem;
+    font-weight: 900;
+    /* margin-bottom: 16px; */
+}
+
+.stat-name{
+    /* color:#FFFFFF; */
+    /* font-size: 1rem; */
+    /* font-weight: 400; */
+}
 }
