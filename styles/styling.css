@@ -554,9 +554,9 @@ iframe{
 
 /* banner-responsive */
 .hero-banner-container {
-    width: 440px;
+    width: 412px;
     height: 466px;
-    background-size: 440px 466px;
+    background-size: 412px 466px;
     background-position: center;
     position: relative; 
     padding:0px 0px; 
@@ -730,7 +730,7 @@ iframe{
 /* featured episodes section responsive */
 .feature-section{
     /* justify-items: center; */
-    padding: 40px 40px;
+    padding: 40px 30px;
     /* justify-items: center; */
 }
 
