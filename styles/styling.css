@@ -75,7 +75,6 @@
 
 /* navbar-styling */
 .nav-container{
-    /* display: none; */
     min-height: 92px;
     align-items: center;
     justify-content: space-around;
@@ -85,6 +84,10 @@
     color: #FFFFFF;
     font-size: 3rem;
     font-weight: 700;
+}
+
+.menu-container{
+    margin-left: -55px;
 }
 
 .menu-container li {
@@ -234,12 +237,6 @@
     
 } */
  
-
-/* .staticstics-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr)
-} */
-
 .stat-card{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -391,9 +388,6 @@ iframe{
 
 
 /* meet the host styling section */
-
-
-
 .host-section{
     padding-bottom: 120px;
     justify-items: center;
@@ -410,7 +404,6 @@ iframe{
 
 .host-container{
     background-color:#35116579;
-    /* justify-content: center; */
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -456,8 +449,6 @@ iframe{
     border-radius: 10px;
 }
 /* footer section */
-
-
 .foot-container{
     position: relative;
    text-align: center;
@@ -534,7 +525,6 @@ iframe{
 .nav-container{
     min-height: 60px;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 .nav-brand-name{
@@ -552,9 +542,6 @@ iframe{
 .side-bar-icon {
     display: inline;
 }
-
-/* humberger icon */
-
 
 /* banner-responsive */
 .hero-banner-container {
@@ -625,8 +612,6 @@ iframe{
 /* about section responsive */
 .about-info{
     justify-items: center;
-    /* margin-right: 20px;
-    margin-left: 20px; */
     margin: 40px auto;
 }
 .about-title{
@@ -643,20 +628,13 @@ iframe{
 
 }
 
-/* .staticstics-container{
-    
-    
-    
-    
-} */
-
 .stat-card{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
     column-gap: 40px;
-    
-    /* justify-content:end; */
+    align-items: center;
+    justify-content: center;
 }
 
 .cards{
@@ -665,16 +643,9 @@ iframe{
 }
 
 .stat-number{
-    /* color: #00FF88; */
     font-size: 2.5rem;
     font-weight: 900;
-    /* margin-bottom: 16px; */
 }
-
-/* .stat-name{
-    
-} */
-
 
 /* why choose section responsive  */
 .why-choose-tw-section{
@@ -733,9 +704,7 @@ iframe{
 
 /* featured episodes section responsive */
 .feature-section{
-    /* justify-items: center; */
     padding: 40px 30px;
-    /* justify-items: center; */
 }
 
 .feature-title{
@@ -758,7 +727,6 @@ iframe{
 .info-container{
     padding: 24px;
 }
-
 
 .card-title{
     color:#FFFFFF;
@@ -783,7 +751,6 @@ iframe{
 
 
 /* meet the host section responsive */
-
 .host-container,
 .host-icon{
     flex-direction: column;
@@ -824,54 +791,40 @@ iframe{
 
 
 /* footer section response */
-
 .foot-section {
-    /* 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 248px; */
+    position: relative;
     background-image: url("../assets/footer-bg.png");
-    width: 412px;
+    max-width: 440px;
     height: 248px;
-    background-size: 412px 248px;
-    background-position: cover;
-    /* position: relative;  */
-    /* padding:0px 0px;  */
+    background-size:cover;
 }
 
 .foot-container{
-    /* position: relative;
-   text-align: center;
-   margin: 0px auto; */
+    width: 400px;
+    height: 168px;
+    top: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
 }
 
 .foot-title{
-     color:#FFFFFF;
-     font-size: 5rem;
-     font-weight: 800;
-     padding-top: 85px;
-
-}
-
-.gardient-title{
-    background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+     font-size: 3rem;
+     font-weight: 700;
 }
 
 .icon-container{
+    width: 300px;
+    height: 64px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 16;
     position: absolute;
-   top: 50px;
-   left: 0px;
-   margin: 0px auto;
-}
-
-/* .icon-container,
-.icon-flex */
+    top: 150px;
+    left: 90px;
+    align-items: center;
+    margin-top: 15px;
+} 
 
 .icon-card{
    margin-right: 40px;
@@ -890,15 +843,9 @@ iframe{
 }
 
 .copyright-text{
-   color: #ffffff86;
-   font-size: 1rem;
-   font-weight: 400;
-}
-
-.copyright-text{
     position: absolute;
-    left: 780px; 
-    top: 300px;
+    left: 10px;
+    top: 230px;
     margin: 0px auto;
 }
 
