@@ -352,7 +352,7 @@
 
 .feature-card{
     background-color: #250D44;
-    border-radius: 20px;
+    border-radius: 24px;
     box-shadow: 0px 4px 4px 0px #00000044;
     min-height: 440px;
     max-width: 380px;
@@ -362,7 +362,7 @@
 
 iframe{
     border: none;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 24px 24px 0px 0px;
 }
 
 .info-container{
@@ -743,39 +743,28 @@ iframe{
 
 /* featured episodes section responsive */
 .feature-section{
+    /* justify-items: center; */
+    padding: 40px 20px;
     justify-items: center;
-    padding: 120px 200px;
 }
 
 .feature-title{
     color:#FFFFFF;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-top: 0px;
     
 }
 
 .feature-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 16px;
 }
 
 .feature-card{
-    background-color: #250D44;
-    border-radius: 20px;
-    box-shadow: 0px 4px 4px 0px #00000044;
-    min-height: 440px;
-    max-width: 380px;
-    
-
+    box-shadow: 0px 4px 4px 0px #0000001f;
 }
-
-iframe{
-    border: none;
-    border-radius: 20px 20px 0px 0px;
-}
-
 .info-container{
     padding: 24px;
 }
@@ -788,7 +777,7 @@ iframe{
 }
 
 .card-description{
-    color:#FFFFFF;
+    color:#ffffff91;
     font-size: 1rem;
     margin-top: 12px;
     margin-bottom: 12px;
