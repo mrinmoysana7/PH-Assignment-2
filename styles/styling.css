@@ -101,6 +101,18 @@
     margin-left: 32px;
 }
 
+.menu-item{
+    transition: transform 0.3s ease;
+}
+.menu-item:hover{
+    color:#9100F8;
+    background-color: rgb(250, 255, 254);
+    padding: 10px;
+    border-radius: 50px;
+    transform: scale(1.08);
+    
+}
+
 .menu-container a {
     text-decoration: none;
 }
@@ -113,7 +125,15 @@
     border-radius: 1000px;
     min-width: 135px;
     box-shadow: 0px 4px 4px 0px #0000006c;
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
+
+.gradient-btn-nav:hover{
+    transform: scale(1.08);
+}
+
+
 
 .gradient-btn-nav a {
     color: #FFFFFF;
@@ -158,8 +178,12 @@
     top: 8%;
     left: 75%;
     box-shadow: 0px 3px 27px 0px #00ff887b;
+    transition: transform 0.3s ease;
 }
 
+.badge-btn:hover{
+    transform: scale(1.08);
+}
 .banner-info{
     text-align: center;
     margin-left: -785px;
@@ -187,6 +211,13 @@
     border-radius: 1000px;
     min-width: 135px;
     box-shadow: 0px 4px 4px 0px #00000059;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gradient-btn-banner:hover{
+    transform: scale(1.08);
+
 }
 
 .gradient-btn-banner a {
@@ -203,6 +234,12 @@
     border-radius: 1000px;
     background-color: none;
     margin-left: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.subscribe-btn:hover{
+    transform: scale(1.08);
 }
 
 .subscribe-btn a{
@@ -501,7 +538,7 @@ iframe{
 
 .copyright-text{
     position: absolute;
-    left: 780px; 
+    left:880px; 
     top: 300px;
     margin: 0px auto;
 }
@@ -831,15 +868,17 @@ iframe{
 
 .icon-container{
     width: 300px;
-    height: 64px;
+    /* height: 64px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16;
+    row-gap: 16px;
     position: absolute;
     top: 150px;
     left: 90px;
     align-items: center;
-    margin-top: 15px;
+   
+    
 } 
 
 .icon-card{
@@ -863,6 +902,8 @@ iframe{
     left: 10px;
     top: 230px;
     margin: 0px auto;
+    margin-top: 35px;
+    margin-left: 15px;
 }
 
 }
